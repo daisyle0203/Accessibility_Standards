@@ -1,12 +1,17 @@
+/* General layout */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Set background color of body to #d9dcd6 */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Below are style rules for header */
 
 header {
     padding: 20px;
@@ -14,6 +19,8 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
+/* Set styles for Horiseon */
 
 header h1 {
     display: inline-block;
@@ -24,7 +31,9 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header ul {
+/* Set style for the navigation bar */
+
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,9 +52,12 @@ a {
     text-decoration: none;
 }
 
+/* Set font size for paragraph in the header */
 p {
     font-size: 16px;
 }
+
+/* Hero section styling */
 
 .hero {
     height: 800px;
@@ -55,6 +67,16 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Set main to inline block */
+ 
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Locate content */
 
 .float-left {
     float: left;
@@ -67,12 +89,27 @@ p {
     margin-left: 25px;
     max-height: 200px;
 }
+ /* Below are style rules for content */
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+ .content div  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}  
+ 
+/* Below are style rules for aside */
 
 aside {
     margin-right: 20px;
@@ -101,23 +138,7 @@ aside {
     max-width: 150px;
 }
 
-.content div  {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}  
+/* Below are style rules for footer */
 
 footer {
     padding: 30px;
